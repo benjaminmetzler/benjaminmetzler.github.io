@@ -32,3 +32,6 @@ favicon_img: no
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# other pages
+include: ["keyspub.txt"]
