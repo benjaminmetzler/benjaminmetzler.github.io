@@ -17,15 +17,14 @@ steps:
       sudo apt-get install ruby-full build-essential zlib1g-dev
       export GEM_HOME="$HOME/gems"
       export PATH="$HOME/gems/bin:$PATH"
-      pwd 
       gem install jekyll bundler
       jekyll b
-
-- task: ArchiveFiles@2
+      /usr/bin/zip -r $HOME/site.zip $HOME/_site
+      ls -ltr
+- task: PublishPipelineArtifact@1
   inputs:
-    rootFolderOrFile: '$HOME/_site'
-    includeRootFolder: true
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-    replaceExistingArchive: true
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: 'site.zip'
+    publishLocation: 'pipeline'
+
 
