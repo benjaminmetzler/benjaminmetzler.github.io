@@ -19,7 +19,7 @@ steps:
       export PATH="$HOME/gems/bin:$PATH"
       gem install jekyll bundler
       jekyll b
-      /usr/bin/zip -r $HOME/site.zip $HOME/_site
+      /usr/bin/zip -r $HOME/site.zip . -i $HOME/_site
       ls -ltr
 - task: PublishPipelineArtifact@1
   inputs:
