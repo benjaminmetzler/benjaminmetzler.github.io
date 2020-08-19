@@ -23,7 +23,7 @@ steps:
       ls -ltr
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
+    targetPath: '$(Pipeline.Workspace)/_site'
     artifact: 'site.zip'
     publishLocation: 'pipeline'
 
