@@ -51,4 +51,4 @@ markdown: kramdown
 permalink: pretty
 
 # other pages
-include: ["keyspub.txt"]
+include: ["gpg.txt"]
