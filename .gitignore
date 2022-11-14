@@ -1,2 +1,9 @@
-_site/
-.DS_Store
+_site
+.jekyll-cache
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+*.markdown
+404.*
+Gemfile*
+vendor
