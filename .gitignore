@@ -7,3 +7,4 @@ _site
 404.*
 Gemfile*
 vendor
+.DS_Store
