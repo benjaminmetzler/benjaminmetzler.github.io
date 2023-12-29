@@ -3,10 +3,10 @@ name: Benjamin Metzler
 description: "I make things work"
 url: "https://mtzlr.io"
 
-blog_url: https://github.com/benjaminmetzler/TIL
+#blog_url: https://github.com/benjaminmetzler/TIL
 github_username:  benjaminmetzler
 linkedin_username: benjaminmetzler
-mastodon: https://mas.to/@benjaminmetzler
+mastodon: https://social.lol/@benjaminmetzler
 public_key_url: https://mtzlr.io/gpg.txt
 lol_proven: https://proven.lol/1a6f35
 
