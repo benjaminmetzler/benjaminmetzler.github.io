@@ -6,9 +6,9 @@ url: "https://mtzlr.io"
 #blog_url: https://github.com/benjaminmetzler/TIL
 github_username:  benjaminmetzler
 linkedin_username: benjaminmetzler
-mastodon: https://social.lol/@benjaminmetzler
+#mastodon: https://social.lol/@benjaminmetzler
 public_key_url: https://mtzlr.io/gpg.txt
-lol_proven: https://proven.lol/1a6f35
+#lol_proven: https://proven.lol/1a6f35
 
 avatar: yes
 #avatar_img_path: "imgs/avatar.jpg""
